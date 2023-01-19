@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  font-size: 20px;
+}
+
+body{
+  max-height: 100vh;
+  margin: 0;
+
+}
+.img{
+
+  float: right;
+  background-image: url(../img/textile-g2ec66aa7e_1280.jpg);
+background-repeat: no-repeat;
+background-position: 50%, 50%;
+background-size: contain;
+
+}
+.pmg{
+
+  
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}

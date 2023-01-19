@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+ background-image: url(../img/vivid-blurred-colorful-background.jpg);
+}
+.container{
+max-width: 1280px;
+margin-right: auto;
+margin-left: auto;
+padding-right: 30px;
+padding-left: 30px;
+text-align: center;
+
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.header{
+background-color: #ddd8d8; 
+padding: 0;
+}
+
+.logo{
+  margin-left: 85%;
+}  
+
+
+.copyright{
+  text-align: center;
+}
+.navbar {
+}
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly
+  }
+.navbar-item {
+}
+.navbar-link {
+  padding: 20px;
+  background-color: red;
+  display: block;
+  text-decoration: none;
+}

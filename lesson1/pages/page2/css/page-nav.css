@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+font-size: 20px;
+  background-image: url(../img/vivid-blurred-colorful-background.jpg);
+}
+.container{
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  20px;
+  padding-right: 20px;
+}
+.header{  
+background-color: aqua;
+padding-bottom: 30px;
+border-bottom: 2px solid black;
+margin-bottom: 50px;
+}
+.main{
+  margin-bottom: 50px;
+}
+
+p::first-letter{
+
+  font-size: 300%;
+  color: red;
+  
+}
+
+h1{
+text-align: center;
+font-family: Arial, sans-serif;
+font-size: 50px;
+text-transform: uppercase;
+font-weight: 100;
+}
+h2{
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+
+
+.logo{
+
+float:right;
+}
+.footer{
+text-align: center;
+}
+.navbar{
+
+}
+.navbar-list{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+justify-content: center;
+gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+ .navbar-item{
+
+ }
+ .navbar-link{
+background-color: hsl(324, 100%, 50%);
+padding: 20px;
+display: block;
+text-decoration: none;
+color: hsl(0, 5%, 8%);
+
+border-radius: 5px;
+
+
+
+}
+.navbar-link:hover{
+    background-color: hwb(60 78% 16%);
+color: blueviolet;
+
+
+}.copyright{
+  font-size: 500%;
+margin-bottom: 50px;
+}
+.socials{
+display: flex;
+justify-content: center;
+gap: 20px;
+}
+.social-link{
+
+font-size: 250%;
+color: indigo;
+}
+.social-link:hover{
+  color: tomato;
+
+  border-top: 2px solid black;
+}

@@ -1,0 +1,12 @@
+body{
+  background-color: blue;
+  margin: 0;
+  }
+  .conteiner{
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  20px;
+  padding-right: 20px;
+}
+

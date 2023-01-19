@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hotpink;
+}
+
+fieldset{
+max-width: 500px;
+margin: 20px auto;
+}
+textarea,
+input{
+  width: 100%;
+  padding: 7px 15px;
+}
+input[type="file"] {
+  padding-left: 0;
+}
+input[type="radio"] {
+  width: auto;
+}
+input[type="checkbox"] {
+width: auto;
+  
+}
+
+
+.label-form {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group{
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+.form-group-sm{
+  margin-top: 7px;
+  margin-bottom: 7px;
+
+}
+.btn{
+  width: 100%;
+  padding: 7px 15px;
+}
+textarea{
+resize: vertical; 
+min-height: 75px; 
+min-height: 40vh;
+}
+h1{
+  text-align: center;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,600;1,8..144,100&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+<link rel="stylesheet" href="url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;0,8..144,600;1,8..144,100&display=swap');">
+  <link rel="stylesheet" href="css/registration.css">
+  <title>Registration</title>
+</head>
+<body>
+  <main class="mai">
+    <header class="header">
+  <div class="conteiner">
+  <h1>Registration</h1>
+  <nav class="navbar">
+    <ul class="navbar-list">
+  <li class="navbar-item">
+    <a class="navbar-link" href="../../index.html">Home Page</a>
+  </li>
+  <li class="navbar-item">
+    <a class="navbar-link" href="../page2/articles.html">Articles</a>
+  </li>
+  <li class="navbar-item">
+    <a class="navbar-link" href="../page2/contacts.html">Contacts</a>
+  </li>
+  <li class="navbar-item">
+    <a class="navbar-link" href="../page2/catalog.html">Catalog</a>
+  </li>
+  <li class="navbar-item">
+    <a class="navbar-link" href="../page2/gallery.html">Gallery</a>
+  </li>
+  <li class="navbar-item">
+    <a class="navbar-link" href="../page2/page-nav.html">Page-Nav</a>
+  </li>
+  <li class="navbar-item">
+    <a class="navbar-link" href="../page2/registration.html">Registration</a>
+  </li>
+  </ul>
+  </nav>
+  </div>
+</header>
+    <form action="registration.php" method="GET">
+      <fieldset class="form-style">
+  <legend>Основные данные</legend> 
+  <div class="form-group">
+    <label for="surname">Фамилия</label>
+    <input name="surname" id="surname" type="text" placeholder="Фамилия">
+  </div>
+  <div class="form-group">
+    <label for="name">Имя</label>
+    <input name="name" id="name" type="text" placeholder="name">
+  </div>
+  <div class="form-group">
+    <label for="patronymic">Отчество</label>
+    <input name="patronymic" id="patronymic" type="text" placeholder="Отчество">
+  </div>
+  <div class="form-group">
+    <label for="file">додати фото</label>
+    <input name="file" id="file" type="file">
+  </div>
+  <div class="form-group">
+    <label class="label-form" for="email">email</label>
+    <input name="email" id="email" type="text" placeholder="email">
+  </div>
+  <div class="form-group">
+    <label class="label-form" for="password">password</label>
+    <input name="password" id="password" type="text" placeholder="password">
+  </div>
+  <div class="form-group">
+    <label class="label-form" for="site">Адрес сайта</label>
+    <input name="site" id="site" type="text" placeholder="site">
+  </div>
+  <div class="form-group">
+    <label class="label-form" for="gender-male">Мужской</label>
+    <input name="gender" id="gender-male" type="radio" value="male">
+  </div>
+  <div class="form-group">
+    <label class="label-form" for="gender-female">Женский</label>
+    <input name="gender" id="gender-female" type="radio" value="femali">
+  </div>
+  <div class="form-group">
+    <label class="label-form" for="data">Дата рождения</label>
+    <input name="b-day" id="data" type="date">
+  </div>
+  <div class="form-group">
+<div class="label-form">
+Выберите вашу любимую кухню
+</div>
+  </div>
+  <div class="form-group"> 
+  <div class="checkbox">
+  <label for="ua-kit">Украинсая</label>
+  <input name="kit" id="ua-kit" type="checkbox" value="ua">
+  </div>
+</div>
+  <div class="form-group">
+    <div class="checkbox">
+    <label for="jp-kit">Японская кухня</label>
+    <input name="kit" id="jp-kit" type="checkbox" value="jp">
+  </div>
+</div>
+  <div class="form-group">
+    <div class="checkbox">
+    <label for="ch-kit">Китайская кухня</label>
+    <input name="ch-kit" id="ch-kit" type="checkbox" value="ch">
+  </div>
+</div>
+<div class="form-group">
+  <label for="txt">О себе</label>
+  <textarea name="txt" id="txt" placeholder="Информация о себе" cols="30" rows="10">
+</textarea>
+</div>
+</fieldset>
+<fieldset class="form-style">
+  <legend>Кнопки управления</legend>
+  <div class="form-group">
+  <button class="btn" type="submit">Зарегистрироваться</button>
+</div>
+<div class="form-group">
+  <button class="btn" type="reset">Очистить форму</button>
+  </div>
+</fieldset>
+</form>
+  <div class="footer">
+  <footer>
+  &Oleg Berlo
+  </footer>
+  </div>
+  </main>
+</body>
+
+</html>
