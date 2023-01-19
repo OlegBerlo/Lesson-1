@@ -1,0 +1,31 @@
+html{
+  font-size: 16px;
+}
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+  }
+  table{
+  width: 90%;
+  border-collapse: collapse;
+  text-align: center;
+margin: 20px auto;
+  }
+td{
+  border: 1px solid black;
+  height: 50px;
+  width: 33.33%;
+}
+.w90p{
+width: 90%;
+}
+.w1p{
+  width: 80%;
+}
+.w75p{
+width: 75%;
+}
+.h200{
+  height: 200px;
+}
